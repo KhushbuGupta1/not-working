@@ -55,13 +55,13 @@ if(keyDown(RIGHT_ARROW)){
 rocket.x = rocket.x+3;
 }
    
-if(rocket.isTouching(crater)){
+if(rocket.isTouching(cratersGroup)){
 gameState = END;
 rocket.velocity = 0;
 crater.velocity = 0;
 }
     
-if(rocket.isTouching(crater2)){
+if(rocket.isTouching(crater2Group)){
 gameState=END;
 crater2.velocity = 0;
 }
